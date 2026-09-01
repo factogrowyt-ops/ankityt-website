@@ -205,10 +205,19 @@
       <a href="#connect" class="hover:text-white transition">Connect</a>
     </div>
     <a href="https://youtube.com/@ankitedting?si=YgIILvwo8__0W7eL" target="_blank" rel="noopener"
-       class="btn-primary hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs uppercase tracking-widest">
-      <i class="fa-brands fa-youtube"></i> Subscribe
-    </a>
-  </nav>
+   class="btn-primary hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs uppercase tracking-widest">
+  <i class="fa-brands fa-youtube"></i> Subscribe
+</a>
+<button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" class="md:hidden text-2xl text-white">
+  <i class="fa-solid fa-bars"></i>
+</button>
+</nav>
+<div id="mobileMenu" class="hidden md:hidden flex-col gap-4 px-5 pb-5 font-mono text-xs uppercase tracking-widest text-[color:var(--muted)]">
+  <a href="#about" class="hover:text-white transition">About</a>
+  <a href="#shorts" class="hover:text-white transition">Shorts</a>
+  <a href="#featured" class="hover:text-white transition">Featured</a>
+  <a href="#connect" class="hover:text-white transition">Connect</a>
+</div>
 </header>
 
 <!-- ============ HERO SECTION ============ -->
